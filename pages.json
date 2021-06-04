@@ -1,0 +1,151 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			// 主页
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "dd开黑",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			// 玩法推荐
+			"path": "pages/index/playRecommend/index",
+			"style": {
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			// 玩法推荐
+			"path": "pages/index/playRecommend/recomendDetail",
+			"style": {
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			// 玩法推荐评论详情
+			"path": "pages/index/playRecommend/comment/reply",
+			"style": {
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			// 开黑房间
+			"path": "pages/roomList/index",
+			"style": {}
+		},
+		{
+			// 更多
+			"path": "pages/more/index",
+			"style": {}
+		},
+		{
+			// 社区
+			"path": "pages/community/index",
+			"style": {}
+		},
+		{
+			// 我的
+			"path": "pages/user/leftSlidePage",
+			"style": {
+				// "enablePullDownRefresh": true
+			}
+		}
+		
+		// {
+		// 	"path": "pages/tabbar/5my/tabbar-5",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/login/login",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/subs/subs",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/incomments/incomments",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/post/post",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/article/article",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/articlelist/articlelist",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/gamelist/gamelist",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/tablist/tablist",
+		// 	"style": {}
+		// }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "打不打",
+		"navigationBarBackgroundColor": "#8cb92b",
+		"backgroundColor": "#33b97d",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "light"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fbfbfb",
+		"color": "#636363",
+		"selectedColor": "#8cb92b",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/main.png",
+				"selectedIconPath": "static/img/tabbar/main.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/roomList/index",
+				"iconPath": "static/img/tabbar/zudui.png",
+				"selectedIconPath": "static/img/tabbar/zudui-active.png",
+				"text": "开黑"
+			},
+			{
+				"pagePath": "pages/more/index",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png"
+			},
+			{
+				"pagePath": "pages/community/index",
+				"iconPath": "static/img/tabbar/shequ.png",
+				"selectedIconPath": "static/img/tabbar/shequ-active.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/user/leftSlidePage",
+				"iconPath": "static/img/tabbar/wo.png",
+				"selectedIconPath": "static/img/tabbar/wo-active.png",
+				"text": "我的"
+			}
+			// {
+			// 	"pagePath": "pages/tabbar/5my/tabbar-5",
+			// 	"iconPath": "static/img/tabbar/wo.png",
+			// 	"selectedIconPath": "static/img/tabbar/wo-active.png",
+			// 	"text": "我"
+			// }
+		]
+	}
+}

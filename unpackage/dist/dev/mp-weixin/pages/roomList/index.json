@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-search": "/components/mySearch",
+    "my-screen": "/components/myScreen",
+    "tab-content": "/pages/roomList/tabContent"
+  }
+}

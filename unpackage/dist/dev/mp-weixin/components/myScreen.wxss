@@ -1,0 +1,6 @@
+
+.content {
+	background-color: white;
+	margin: 5rpx 30rpx;
+}
+

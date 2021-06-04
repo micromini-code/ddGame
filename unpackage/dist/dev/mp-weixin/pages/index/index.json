@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "dd开黑",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-section": "/uview-ui/components/u-section/u-section"
+  }
+}

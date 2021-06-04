@@ -1,0 +1,18 @@
+
+.content {
+	background-color: white;
+	height: 84rpx;
+}
+.mySearch {
+	padding: 10rpx 15rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
